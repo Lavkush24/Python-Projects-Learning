@@ -42,3 +42,30 @@
 - ## Learning OpenCV Core Operations
     - acccessing pixcel values and image properties and region of interest(ROI) and split and merge image
     
+    - create color tracking application
+
+
+
+# DAY 3 (24 Nov 2025)
+- ## Geomatric transformation   
+    - Learned function  
+        - cv.warpAffine() take input 2*3 matrix
+        - cv.warpPerspective() take input 3*3 matrix transformation     
+
+    - scaling   (To resize the image)
+        - cv.resize(img,shape,fx,fy(if shape none),interpolation=cv.inter_cubic(many other))
+
+    - Translation ( shifting of object location)
+        - create a matrix eg if you want shift (100,50)  np.float32([[1,0,100],[0,1,50]])
+        - cv.wrapAffine(img,Matrix,(cols(width),rows(height)))
+
+    - Rotation
+        - for rotation similar to translation i need to change only the matrix that i create
+        - i need specal matrix by using getRotationMatrix2D((center),degeree,scaling)
+
+    - affineTransform and perspective Transform
+        - getAffineTransform(pt1,pt2)  parllel remain parallel
+        - getPerspectiveTransform(pt1,pt2) staright remain straight line
+        
+
+
