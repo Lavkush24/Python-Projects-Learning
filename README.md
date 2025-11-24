@@ -37,3 +37,8 @@
         - one using setmousecallback() --- create rectange and circle by triggering the particular command
 
         - second add the freature of changing color of paing in above 
+
+# DAY 2 (23 Nov 2025)
+- ## Learning OpenCV Core Operations
+    - acccessing pixcel values and image properties and region of interest(ROI) and split and merge image
+    
