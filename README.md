@@ -68,4 +68,15 @@
         - getPerspectiveTransform(pt1,pt2) staright remain straight line
         
 
+# DAY 4 (28 Nov 2025)
+- ## Image Filtering 
+    - cv.filter2D(img, ,filter)
+    - we create filter as kernel of matrix that apply on each pixel of the  image
 
+    - ### image bluring
+    - 1. Averaging 2. Gaussian Blurring 3. Bilateral filtering
+    - 1. cv.blur(img,(5,5)) or cv.boxFilter()
+    - 2. cv.gaussianBlur(img,(5,5),0)
+    - 3. cv.medianBlur(img,)
+
+- ## Morphological transformation
