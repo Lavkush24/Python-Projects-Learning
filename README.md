@@ -79,4 +79,14 @@
     - 2. cv.gaussianBlur(img,(5,5),0)
     - 3. cv.medianBlur(img,)
 
+# DAY 5 (1 Dec 2025)
 - ## Morphological transformation
+    - cv.erode(img,kernel,iteration=1) it siply work like the soil erosion. erode the boundry of the images by moving like the 2d convolution.
+    - cv.dilate(img,kernel,iteration=1) just opposite of the erosion as it increase the white region
+    - cv.morphologyEx(img,cv.MORPH_OPEN,kernel) erosion followed by dilation
+    - cv.morphologyEx(img,cv.MORPH_CLOSE,kernel) dilation followed by erosion
+    and some other features for  opearation similar to these operations
+
+- Canny edges detection 
+    - applciatioin where i can control the min and max threshold values so see how they affect the image edge detection
+    
