@@ -89,4 +89,11 @@
 
 - Canny edges detection 
     - applciatioin where i can control the min and max threshold values so see how they affect the image edge detection
-    
+
+
+
+# DAY 6 (12 Dec 2025)
+- ## Image pyramids
+    - image pyramid is the stack of high resolutin to low resolution images stack . the stack is look like pyramid that why it is known as the image pyramid.
+        - have two type 1. gaussian pyramid  2. Laplacian pyramid
+        #### two functions to access them 1. cv.pyrUp() 2. cv.pyrDown()
