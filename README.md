@@ -106,3 +106,5 @@
     - its better to apply threshold and canny edge detection
 - ## how to draw contour
     - function use is cv.drawContours(img,contour passed as pythonlist , color(0,255,0), thickness)
+- ## Contour Properties
+    - Moments it give all values like area, perimeter , and mometns value by using moment()
