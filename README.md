@@ -97,3 +97,12 @@
     - image pyramid is the stack of high resolutin to low resolution images stack . the stack is look like pyramid that why it is known as the image pyramid.
         - have two type 1. gaussian pyramid  2. Laplacian pyramid
         #### two functions to access them 1. cv.pyrUp() 2. cv.pyrDown()
+
+
+# DAY 7 (13 Dec 2025)
+- ## Contour Features
+    - use full tool for object detection and recognition it detect the same colout around the corner or the boundry 
+    - function use is cv.findcontours() it take three atrgument i. image  ii. contour retrivel mode iii. contour approximation method
+    - its better to apply threshold and canny edge detection
+- ## how to draw contour
+    - function use is cv.drawContours(img,contour passed as pythonlist , color(0,255,0), thickness)
