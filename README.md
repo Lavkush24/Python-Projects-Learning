@@ -108,3 +108,16 @@
     - function use is cv.drawContours(img,contour passed as pythonlist , color(0,255,0), thickness)
 - ## Contour Properties
     - Moments it give all values like area, perimeter , and mometns value by using moment()
+    - cv.moments(contour[0]) or the desirable contor
+        - uisng it find area , cetroid, perimeter etc
+    - area cv.countourArea(cnt)
+    - primeter cv.arcLength(cnt,True)
+    - contour approxiamtion cv.approxPolyDP(cnt,epsilon,True)
+    - convex HUll cv.convexHull(points[, hull[, clockwise[, returnPoints]]])\
+    - checking convexcity cv.iscontourConvex(cnt) returhn treu and false
+    - bounding rectangel 
+        - 1. straight bounding rectangle  x,y,w,h = cv.boundingRect(cnt) 
+        - 2. rotated rectangle 
+    - minimum enclosing circle 
+    - fitting ellipse
+    - fitting a line
