@@ -121,3 +121,13 @@
     - minimum enclosing circle 
     - fitting ellipse
     - fitting a line
+
+
+# DAY 8 (14 Dec 2025)
+- ## Feture detection and description
+    - what is good feature
+    - corner in a image detection
+        - 1. Harris corner detection
+        - 2. shi-tomasi corner detection cv.goodFeaturesToTrack(img,no_of_corner,)
+        - 3. scale-invarient-feature-transform (SIFT) it uses when the corners are not sharp like the smooth edges and take the large area .
+        
