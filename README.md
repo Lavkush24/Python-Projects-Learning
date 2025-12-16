@@ -131,3 +131,22 @@
         - 2. shi-tomasi corner detection cv.goodFeaturesToTrack(img,no_of_corner,)
         - 3. scale-invarient-feature-transform (SIFT) it uses when the corners are not sharp like the smooth edges and take the large area .
         
+
+# DAY 9 (16 Dec 2025)
+- ## Feature dectection and description part 2
+    - SURF (speed up robust features) it little advance and faster version of sift 
+    - usecase in open cv 
+        - surf.detectAndCompute()
+
+        - SURF is no more available in free usable so use sift or orm
+
+- ## Fast Algorithm for corner detection
+    - FAST(feature from accelerated sagment test)
+        - initialize fast object with default values cv.fastfeatruedetector_create()
+        - find and draw keypoints fast.detect(img,none)
+        - cv.drawkeypoints(img,kp,none,color=(255,0,0))
+
+
+- ## Background Modeling (remove bg)
+    - two steps 1. bg intialization 2. bg update
+    - 
