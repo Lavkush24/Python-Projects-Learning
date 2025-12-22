@@ -149,4 +149,8 @@
 
 - ## Background Modeling (remove bg)
     - two steps 1. bg intialization 2. bg update
-    - 
+    
+
+# DAY 10 (22 Dec 2025)
+- ## Meanshift and Camshift
+    - setup target, find histogram so can backproject ,provide initial location of window, 
