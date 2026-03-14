@@ -154,3 +154,8 @@
 # DAY 10 (22 Dec 2025)
 - ## Meanshift and Camshift
     - setup target, find histogram so can backproject ,provide initial location of window, 
+
+
+
+# DAY 11 (22 January 2026)
+- ## Today i am going to learn about handtracking using package mediapipe
